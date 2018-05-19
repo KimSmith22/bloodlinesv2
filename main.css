@@ -1,31 +1,22 @@
 body {
-  text-align: center;
   background-color: #000;
   font-family: Helvetica, Sans-Serif;
   color: #fff;
 }
 
-#page-wrap {
-  text-align: left;
-  width: 1100px;
+.container {
+  max-width: 1250px;
   margin: 0 auto;
+  background: #000;
+  font-size: 24px;
+  padding: 25px;
 }
 
 .parallax {
-   background-image: url("img/bloodlineImg.png");
-   height: 600px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: 60%;
+  height: 550px;
+  background: transparent;
 }
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
 .push {
   margin-top: 2em;
 }
@@ -34,7 +25,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 42%;
+  width: 32%;
   top: 25%;
   left: 25%;
 }
@@ -43,34 +34,31 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 38%;
   top: 25%;
   left: 25%;
 }
 
-.social {
-  margin-left: 31.5em;
-}
-
 .social ul li {
   list-style: none;
-  float: left;
+  display: inline-block;
 }
 
 .linx {
   background-color: #000;
   border: solid 2px red;
-  height: 3em;
-}
-
-.btns {
-  margin-left: 23em;
+  height: 1.5em;
+  font-size: 16px !important;
 }
 
 .btns ul li {
   list-style: none;
-  float: left;
-  margin-left: 2em;
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.tagline {
+  font-size: 14px !important;
 }
 
 a {
@@ -102,12 +90,4 @@ a:hover {
 
 .navbar-nav a {
   color: red !important;
-}
-.custom {
-  background-color: rgb(26, 24, 24);
-  height: 50px;
-  width: 90px;
-  color: #bb0404;
-  border: #bb0404 2px solid;
-  font-size: 16px;
 }
