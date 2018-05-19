@@ -8,7 +8,7 @@ body {
   max-width: 1250px;
   margin: 0 auto;
   background: #000;
-  font-size: 24px;
+  font-size: 14px;
   padding: 25px;
 }
 
@@ -90,4 +90,14 @@ a:hover {
 
 .navbar-nav a {
   color: red !important;
+}
+
+
+img.wrap {
+  padding: 2em;
+  float: left;
+}
+
+.press {
+  max-width: 150px;
 }
