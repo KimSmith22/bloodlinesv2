@@ -80,7 +80,8 @@ a:hover {
 
 .links {
   padding-top: 2em;
-  font-size: 16px;
+  font-size: 15px;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .navbar-nav a:hover {
