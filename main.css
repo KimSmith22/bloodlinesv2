@@ -107,3 +107,7 @@ img.wrap {
 .press {
   max-width: 150px;
 }
+
+img {
+    cursor: zoom-in;
+}
