@@ -98,6 +98,9 @@ a:hover {
   color: #bb0404 !important;
 }
 
+.vc {
+    width: 50%;
+}
 
 img.wrap {
   padding: 2em;
