@@ -17,6 +17,10 @@ body {
   background: transparent;
 }
 
+.script {
+  background-image: url('img/wallpaper.jpg');
+}
+
 .push {
   margin-top: 2em;
 }
@@ -46,7 +50,7 @@ body {
 
 .linx {
   background-color: #000;
-  border: solid 2px red;
+  border: solid 2px #bb0404;
   height: 1.5em;
   font-size: 16px !important;
   font-family: 'Philosopher', sans-serif;
@@ -68,7 +72,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #bb0404;
 }
 
 .logo {
@@ -91,7 +95,7 @@ a:hover {
 }
 
 .navbar-nav a {
-  color: red !important;
+  color: #bb0404 !important;
 }
 
 
