@@ -1,10 +1,3 @@
-$(function() {
-    	$('img').on('click', function() {
-			$('.enlargeImageModalSource').attr('src', $(this).attr('src'));
-			$('#enlargeImageModal').modal('show');
-		});
-});
-
 // Get the modal
 var modal = document.getElementById('myModal');
 

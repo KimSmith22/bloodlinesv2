@@ -11,20 +11,20 @@
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="BLOODLINES THE LIFE AND ART OF VINCENT CASTIGLIA">
   <meta itemprop="description" content="Film director John Borowski captures Vincent Castiglia’s life works with his new documentary “Bloodlines.” ">
-  <meta itemprop="image" content="https://drive.google.com/file/d/17FOqqaSSTTGNlNseVV2W0QxeKBcCSNnO/view?usp=sharing">
+  <meta itemprop="image" content="https://www.flickr.com/photos/154463432@N06/40435853490/in/dateposted-public/">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="http://bloodlinesdocumentary.com">
   <meta property="og:type" content="website">
   <meta property="og:title" content="BLOODLINES THE LIFE AND ART OF VINCENT CASTIGLIA">
   <meta property="og:description" content="Film director John Borowski captures Vincent Castiglia’s life works with his new documentary “Bloodlines.” ">
-  <meta property="og:image" content="https://drive.google.com/file/d/17FOqqaSSTTGNlNseVV2W0QxeKBcCSNnO/view?usp=sharing">
+  <meta property="og:image" content="https://www.flickr.com/photos/154463432@N06/40435853490/in/dateposted-public/">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BLOODLINES THE LIFE AND ART OF VINCENT CASTIGLIA">
   <meta name="twitter:description" content="Film director John Borowski captures Vincent Castiglia’s life works with his new documentary “Bloodlines.” ">
-  <meta name="twitter:image" content="https://drive.google.com/file/d/17FOqqaSSTTGNlNseVV2W0QxeKBcCSNnO/view?usp=sharing">
+  <meta name="twitter:image" content="https://www.flickr.com/photos/154463432@N06/40435853490/in/dateposted-public/">
 
   <title>BLOODLINES</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -36,16 +36,30 @@
     <div class="container">
 
       <div class="row text-center">
-          <img class="img-responsive center2" src="img/bloodlineImg.png" alt="bloodlines">
-          <img class="img-responsive center"src="img/webLogo2.png" alt="bloodlines">
+        <img class="img-responsive center2" src="img/heroImg.jpg" alt="bloodlines">
+          <!-- <img class="img-responsive center2" src="img/bloodlineImg.png" alt="bloodlines">
+          <img class="img-responsive center"src="img/webLogo2.png" alt="bloodlines"> -->
         </div>
         <div class="row btns text-center">
           <ul>
-            <li><a href="trailer.html"><button class="linx" type="button" name="button">TEASER</button></a></li>
-            <li><a target="_blank" href="http://www.bloodlinesdocumentary.com/BLOODLINES-TRAILER-PRESS-RELEASE.pdf"><button class="linx" type="button" name="button">PRESS RELEASE</button></a></li>
+            <li><a href="#"><button id="myBtn" class="linx" type="button" name="button">TEASER</button></a></li>
+            <li><a target="_blank" href="http://www.bloodlinesdocumentary.com/BLOODLINES-TRAILER-PRESS-RELEASE.pdf">
+              <button class="linx" type="button" name="button">PRESS RELEASE</button>
+            </a></li>
             <li><a href="about.html"><button class="linx" type="button" name="button">ABOUT</button></a></li>
           </ul>
         </div>
+
+         <!-- The Modal -->
+         <div id="myModal" class="modal">
+
+           <!-- Modal content -->
+           <div class="modal-content">
+             <span class="close">&times;</span>
+             <iframe width="1120" height="630" src="https://www.youtube.com/embed/PcXeZzj3vVk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+           </div>
+
+         </div>
         <div class="row social text-center">
             <ul>
               <li><a target="_blank" href="https://www.facebook.com/Bloodlines-The-Art-and-Life-of-Vincent-Castiglia-324895007719847/"><img src="img/redFB.png" alt="bloodlines"></a></li>
@@ -71,5 +85,6 @@
     <script src="parallax.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="modal.js" charset="utf-8"></script>
   </body>
 </html>
