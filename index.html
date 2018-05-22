@@ -11,20 +11,20 @@
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="BLOODLINES THE LIFE AND ART OF VINCENT CASTIGLIA">
   <meta itemprop="description" content="Film director John Borowski captures Vincent Castiglia’s life works with his new documentary “Bloodlines.” ">
-  <meta itemprop="image" content="https://www.flickr.com/photos/154463432@N06/40435853490/in/dateposted-public/">
+  <meta itemprop="image" content="http://bloodlinesdocumentary.com/img/publicImages/meta.png">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="http://bloodlinesdocumentary.com">
   <meta property="og:type" content="website">
   <meta property="og:title" content="BLOODLINES THE LIFE AND ART OF VINCENT CASTIGLIA">
   <meta property="og:description" content="Film director John Borowski captures Vincent Castiglia’s life works with his new documentary “Bloodlines.” ">
-  <meta property="og:image" content="https://www.flickr.com/photos/154463432@N06/40435853490/in/dateposted-public/">
+  <meta property="og:image" content="http://bloodlinesdocumentary.com/img/publicImages/meta.png">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BLOODLINES THE LIFE AND ART OF VINCENT CASTIGLIA">
   <meta name="twitter:description" content="Film director John Borowski captures Vincent Castiglia’s life works with his new documentary “Bloodlines.” ">
-  <meta name="twitter:image" content="https://www.flickr.com/photos/154463432@N06/40435853490/in/dateposted-public/">
+  <meta name="twitter:image" content="http://bloodlinesdocumentary.com/img/publicImages/meta.png">
 
   <title>BLOODLINES</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -32,20 +32,19 @@
   <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
+
   <body>
     <div class="container">
 
       <div class="row text-center">
         <img class="img-responsive center2" src="img/heroImg.jpg" alt="bloodlines">
         </div>
-        <div class="row btns text-center">
-          <ul>
-            <li><button onclick="showTrailer()" id="openBtn" class="linx" type="button" name="button">TRAILER</button></li>
-            <li><a target="_blank" href="http://www.bloodlinesdocumentary.com/BLOODLINES-TRAILER-PRESS-RELEASE.pdf">
+        <div class="row btns">
+            <div><button onclick="showTrailer()" id="openBtn" class="linx" type="button" name="button">TRAILER</button></div>
+            <div><a target="_blank" href="http://www.bloodlinesdocumentary.com/BLOODLINES-TRAILER-PRESS-RELEASE.pdf">
               <button class="linx" type="button" name="button">PRESS RELEASE</button>
-            </a></li>
-            <li><a href="about.html"><button class="linx" type="button" name="button">ABOUT</button></a></li>
-          </ul>
+            </a></div>
+            <div><a href="about.html"><button class="linx" type="button" name="button">ABOUT</button></a></div>
         </div>
 
           <!-- The Modal -->
@@ -59,13 +58,14 @@
 
           </div>
 
-        <div class="row flex-container text-center">
+        <div class="row flex-container">
               <div><a target="_blank" href="https://www.facebook.com/Bloodlines-The-Art-and-Life-of-Vincent-Castiglia-324895007719847/"><img src="img/redFB.png" alt="bloodlines"></a></div>
               <div><a target="_blank" href="https://www.instagram.com/johnborowskifilmmaker/?hl=en"><img src="img/redIG.png" alt="bloodlines"></a></div>
               <div><a target="_blank" href="http://www.imdb.com/title/tt4382792/?ref_=fn_al_tt_1"><img src="img/redIMDb.png" alt="bloodlines"></a></div>
         </div>
         <div class="row">
           <div class="col-sm-4 text-center">
+            <p class="credits">x</p>
             <a target="_blank" href="http://www.johnborowski.com/"><img src="img/wflogosmall.jpg" alt="bloodlines"></a>
           </div>
           <div class="col-sm-4 text-center">
@@ -73,6 +73,7 @@
               <a target="_blank" href="https://dcypherstudios.com/"><img src="img/transparent.png" alt="bloodlines"></a>
           </div>
           <div class="col-sm-4 text-center">
+            <p class="credits">x</p>
               <a target="_blank" href="http://vincentcastiglia.com/"><img class="vc" src="img/vcLogo.png" alt="bloodlines"></a>
           </div>
         </div>
@@ -84,7 +85,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
       function showTrailer() {
-        var modal = document.getElementById('video');
+        var modal = document.getElementById("video");
         var btn = document.getElementById("openBtn");
         var span = document.getElementsByClassName("close") [0];
         btn.onclick = function() {

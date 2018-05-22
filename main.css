@@ -55,7 +55,6 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .linx {
@@ -66,10 +65,14 @@ html {
   font-family: 'Philosopher', sans-serif;
 }
 
-.btns ul li {
-  list-style: none;
-  display: inline-block;
-  padding-right: 1em;
+.btns {
+  width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 .tagline {
@@ -114,6 +117,10 @@ img.wrap {
 
 .press {
   max-width: 150px;
+}
+
+.credits {
+  color: #000;
 }
 
 /* The Modal (background) */
