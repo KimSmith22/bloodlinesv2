@@ -90,10 +90,8 @@ a:hover {
 }
 
 .links {
-  padding-top: 2em;
   font-size: 18px;
   font-family: 'Philosopher', sans-serif;
-  z-index: 3;
 }
 
 .navbar-nav a:hover {
