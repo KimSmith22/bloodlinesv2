@@ -4,6 +4,10 @@ body {
   color: #fff;
 }
 
+html {
+  background-color: #000;
+}
+
 .container {
   max-width: 1250px;
   margin: 0 auto;
@@ -45,7 +49,13 @@ body {
 
 .social ul li {
   list-style: none;
-  display: inline-block;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .linx {
@@ -76,7 +86,7 @@ a:hover {
 }
 
 .logo {
-  width: 15%;
+  width: 25%;
 }
 
 .links {
@@ -106,14 +116,6 @@ img.wrap {
 
 .press {
   max-width: 150px;
-}
-
-#burger {
-  background-color: #bb0404;
-}
-
-.icon-bar {
-  color: #000;
 }
 
 /* The Modal (background) */
@@ -152,4 +154,95 @@ img.wrap {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+/* *********************************
+           Variables
+  ********************************** */
+$navbar-height: 75px;
+$big-logo-padding: 15px; // adjust these 2 values
+$small-logo-padding: 2px; // of bottom padding to look nice
+
+
+/* *********************************
+   Some Style Overrides on Bootstrap
+  ********************************** */
+.navbar-default {
+  background: #000;
+  border-bottom: none;
+}
+
+.navbar-fixed-top {
+  background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+  border: 1px solid #bb0404;
+  border-color: #bb0404;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   border-color: transparent;
+  @media (max-width: 767px) {
+    background: #000;
+  }
+}
+.navbar-default .navbar-nav > li > a {
+color: black;
+
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #bb0404;
+
+}
+ul.nav {
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #bb0404;
+    border: solid 2px #bb0404;
+}
+/* *********************************
+           Toolbar Logo
+  ********************************** */
+.small-logo-container {
+    padding-top: $navbar-height;
+    height: $navbar-height;
+    overflow: hidden;
+    position: absolute;
+  }
+
+.small-logo {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: $small-logo-padding;
+}
+
+.logo {
+  width: 275px;
+}
+/* *********************************
+           Big Logo
+  ********************************** */
+.big-logo-row {
+  background: gold;
+
+  .big-logo-container {
+    padding-top: $navbar-height;
+  }
+
+  h1 {
+    font-size: 4em;
+    margin:0;
+    padding:0 0 $big-logo-padding 0;
+
+    @media (min-width: 400px) { font-size: 4.5em; }
+    @media (min-width: 440px) { font-size: 5.5em; }
+    @media (min-width: 500px) { font-size: 6.5em; }
+    @media (min-width: 630px) { font-size: 7.5em;  }
+    @media (min-width: 768px) { font-size: 9em; padding-bottom: $big-logo-padding * 2; }
+    @media (min-width: 1200px) { font-size: 12em; }
+  }
 }
