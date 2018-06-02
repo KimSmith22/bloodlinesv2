@@ -2,34 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9ccb48-110c-4189-a018-d05ccd606fbf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/img/cut/32169106_10211266142592215_3680616093103161344_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32169306_10211266168872872_3214374969098108928_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32187381_10211266165672792_3011308417127022592_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32191954_10211266131911948_5121356893951885312_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32214970_10211266144952274_6293080730293501952_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32215505_10211266118991625_2338616461540458496_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32231481_10211266122591715_1451309194945757184_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32235674_10211266151992450_7403341252462116864_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32252969_10211266137232081_5436291147662098432_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cut/32280195_10211266167752844_6318539475358056448_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cast.html" beforeDir="false" afterPath="$PROJECT_DIR$/cast.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/director.html" beforeDir="false" afterPath="$PROJECT_DIR$/director.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32169106_10211266142592215_3680616093103161344_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32169306_10211266168872872_3214374969098108928_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32187381_10211266165672792_3011308417127022592_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32191954_10211266131911948_5121356893951885312_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32214970_10211266144952274_6293080730293501952_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32215505_10211266118991625_2338616461540458496_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32231481_10211266122591715_1451309194945757184_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32235674_10211266151992450_7403341252462116864_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32252969_10211266137232081_5436291147662098432_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/32280195_10211266167752844_6318539475358056448_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/publicImages/meta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/art.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/blood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/cho.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/interview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/johnAndVincent.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/painting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/studio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/vials.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/view2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stills/view3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stills/32280195_10211266167752844_6318539475358056448_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/stills/32280195_10211266167752844_6318539475358056448_n.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/press.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/synopsis.html" beforeDir="false" afterPath="$PROJECT_DIR$/synopsis.html" afterDir="false" />
@@ -44,20 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="faq.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/faq.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="41" column="41" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="172">
+              <caret line="69" column="144" selection-start-line="69" selection-start-column="144" selection-end-line="69" selection-end-column="144" />
             </state>
           </provider>
         </entry>
@@ -72,13 +53,20 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/cast.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/director.html" />
+        <option value="$PROJECT_DIR$/gallery.html" />
+        <option value="$PROJECT_DIR$/press.html" />
+        <option value="$PROJECT_DIR$/synopsis.html" />
+        <option value="$PROJECT_DIR$/faq.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -100,6 +88,11 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/cut" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -170,7 +163,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -185,7 +178,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15416667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23680556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -218,9 +211,55 @@
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/img/stills/32169106_10211266142592215_3680616093103161344_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32187381_10211266165672792_3011308417127022592_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32215505_10211266118991625_2338616461540458496_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32214970_10211266144952274_6293080730293501952_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32231481_10211266122591715_1451309194945757184_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32280195_10211266167752844_6318539475358056448_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32169306_10211266168872872_3214374969098108928_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32235674_10211266151992450_7403341252462116864_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32191954_10211266131911948_5121356893951885312_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/stills/32252969_10211266137232081_5436291147662098432_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318" />
+        <state relative-caret-position="323">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/director.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="69" column="91" selection-start-line="69" selection-start-column="91" selection-end-line="69" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="68" column="91" selection-start-line="68" selection-start-column="91" selection-end-line="68" selection-end-column="91" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -230,10 +269,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
+    <entry file="file://$PROJECT_DIR$/press.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="467">
+          <caret line="69" column="91" selection-start-line="69" selection-start-column="91" selection-end-line="69" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synopsis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="69" column="91" selection-start-line="69" selection-start-column="91" selection-end-line="69" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cast.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="908">
+          <caret line="62" column="48" lean-forward="true" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="69" column="91" selection-start-line="69" selection-start-column="91" selection-end-line="69" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="68" column="91" selection-start-line="68" selection-start-column="91" selection-end-line="68" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cut/32191954_10211266131911948_5121356893951885312_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="69" column="144" selection-start-line="69" selection-start-column="144" selection-end-line="69" selection-end-column="144" />
         </state>
       </provider>
     </entry>
