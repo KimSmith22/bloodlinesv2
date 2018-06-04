@@ -52,7 +52,7 @@
 
             <!-- Modal content -->
             <div class="modal-content2">
-              <span class="close">&times;</span>
+              <span onclick="document.getElementById('video').style.display='none'" class="w3-button w3-display-topright">Close</span>
               <iframe width="840" height="465" src="https://www.youtube.com/embed/PcXeZzj3vVk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
 
@@ -70,7 +70,8 @@
           </div>
           <div class="col-sm-4 text-center">
             <p class="tagline">website powered by</p>
-              <a target="_blank" href="https://dcypherstudios.com/"><img src="img/transparent.png" alt="bloodlines"></a>
+            <a target="_blank" href="https://dcypherstudios.com/"><img src="img/transparent.png" alt="bloodlines"></a>
+            <p class="tagline">&copy; Waterfront Productions</p>
           </div>
           <div class="col-sm-4 text-center">
             <p class="credits">x</p>
@@ -87,7 +88,6 @@
       function showTrailer() {
         var modal = document.getElementById("video");
         var btn = document.getElementById("openBtn");
-        var span = document.getElementsByClassName("close") [0];
         btn.onclick = function() {
           modal.style.display = "block";
         }
