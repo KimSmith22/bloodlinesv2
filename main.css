@@ -21,12 +21,74 @@ html {
   background: transparent;
 }
 
+@media(max-width:648px){
+  .parallax{
+   height:300px;
+    }
+}
+
+.trailer {
+  width: 1100px;
+  height: 600px;
+}
+
+@media(max-width:648px) {
+  .trailer {
+    width: 250px;
+    height: 125px;
+  }
+}
+
 .script {
   background-image: url('img/wallpaper.jpg');
 }
 
 .push {
   margin-top: 2em;
+}
+
+.vid {
+  width: 1120px;
+  height: 630px;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1001px) {
+     .vid {
+        width: 1120px;
+        height: 630px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+    .vid {
+        width: 800px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 351px) {
+     .vid {
+        width: 630px;
+        height: 315px;
+     }
+}
+
+@media screen and (max-width: 450px) and (min-width: 350px) {
+    .vid {
+       width: 350px;
+       height: 175px;
+    }
+}
+
+
+.headshot {
+  width: 30%;
+}
+
+@media(max-width: 648px){
+  .headshot {
+    width: 60%;
+  }
 }
 
 .center {
@@ -42,7 +104,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 60%;
   top: 25%;
   left: 25%;
 }
@@ -142,13 +204,14 @@ img.wrap {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+
 /* Modal Content/Box */
 .modal-content2 {
     background-color: #000;
     margin: 1% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #bb0404;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 100%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -201,7 +264,6 @@ $small-logo-padding: 2px; // of bottom padding to look nice
 .navbar-default .navbar-nav > li > a {
 color: black;
 
-
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: #bb0404;
@@ -214,6 +276,8 @@ ul.nav {
     background-color: #bb0404;
     border: solid 2px #bb0404;
 }
+
+
 /* *********************************
            Toolbar Logo
   ********************************** */
@@ -278,6 +342,12 @@ ul.nav {
     height: 535.94px;
   }
 
+@media(max-width:648px){
+  .large {
+    width: 300px;
+    height: auto;
+  }
+}
   .mySlides {
     width: 1000px;
     height: 535.94px;
@@ -285,7 +355,7 @@ ul.nav {
 
 
  /* The Modal (background) */
- .modal {
+ .modals {
    display: none;
    position: fixed;
    z-index: 1;
@@ -299,6 +369,16 @@ ul.nav {
    margin-top: 2em;
  }
 
+@media(max-width:648px){
+    .modals {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      width: 400px;
+      height: 350px;
+      margin-left: 1px;
+    }
+}
  /* Modal Content */
  .modal-content {
    position: relative;
@@ -308,6 +388,13 @@ ul.nav {
    width: 100%;
    max-width: 1000px;
  }
+
+@media(max-width:648px){
+   .modal-content {
+       margin: 0;
+       width: 100%;
+   }
+}
 
  /* The Close Button */
  .close {
@@ -394,3 +481,46 @@ ul.nav {
  .hover-shadow:hover {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
  }
+
+ /* *******************************
+        PRESS & PRESS KIT CSS
+    ******************************* */
+
+/* Dropdown Button */
+.dropbtn {
+     background-color: #000;
+      border: solid 2px #bb0404;
+      height: 1.5em;
+      font-size: 16px !important;
+      font-family: 'Philosopher', sans-serif;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 150px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #bb0404}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
