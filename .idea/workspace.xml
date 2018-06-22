@@ -3,21 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ab9ccb48-110c-4189-a018-d05ccd606fbf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cast.html" beforeDir="false" afterPath="$PROJECT_DIR$/cast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/director.html" beforeDir="false" afterPath="$PROJECT_DIR$/director.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/epk.html" beforeDir="false" afterPath="$PROJECT_DIR$/epk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/heroImg3.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/heroImg3.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modals/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modals/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="62" column="111" lean-forward="true" selection-start-line="62" selection-start-column="111" selection-end-line="62" selection-end-column="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+            <state relative-caret-position="181">
+              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -66,7 +45,6 @@
         <option value="$PROJECT_DIR$/press.html" />
         <option value="$PROJECT_DIR$/cast.html" />
         <option value="$PROJECT_DIR$/director.html" />
-        <option value="$PROJECT_DIR$/epk.html" />
         <option value="$PROJECT_DIR$/faq.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/gallery.html" />
@@ -74,6 +52,8 @@
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/metadata.xml" />
+        <option value="$PROJECT_DIR$/epk.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -96,6 +76,11 @@
               <item name="bloodlinesdocumentary.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="bloodlinesdocumentary.com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bloodlinesdocumentary.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bloodlinesdocumentary.com" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -104,6 +89,9 @@
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/video" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/cut" />
     </key>
@@ -212,12 +200,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/stills/32169306_10211266168872872_3214374969098108928_n.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/stills/32169106_10211266142592215_3680616093103161344_n.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/stills/32214970_10211266144952274_6293080730293501952_n.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -402,10 +384,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/video/metadata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="77" column="63" lean-forward="true" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        <state relative-caret-position="181">
+          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
         </state>
       </provider>
     </entry>
