@@ -4,6 +4,10 @@ body {
   color: #fff;
 }
 
+#pointer {
+  cursor: pointer;
+}
+
 .home {
    height: 625px;
    background: url('img/home.jpg') fixed center no-repeat;
@@ -26,7 +30,6 @@ html {
   height: 600px;
   background: transparent;
 }
-
 
 @media(max-width: 1300px) and (min-width: 1001px) {
     .parallax {
@@ -54,6 +57,11 @@ html {
 
 .script {
   background-image: url('img/wallpaper.jpg');
+}
+
+.vidz {
+  height: 700px;
+  max-width: 1250px!important;
 }
 
 .push {
@@ -107,7 +115,7 @@ html {
 }
 
 #cushion {
-  padding: 10px;
+  padding: 15px;
 }
 
 .flex-container {
@@ -227,7 +235,7 @@ img.wrap {
   ********************************** */
 $navbar-height: 75px;
 $big-logo-padding: 15px; // adjust these 2 values
-$small-logo-padding: 2px; // of bottom padding to look nice
+$small-logo-padding: 5px; // of bottom padding to look nice
 
 
 /* *********************************
@@ -240,6 +248,8 @@ $small-logo-padding: 2px; // of bottom padding to look nice
 
 .navbar-fixed-top {
   background-color: #000;
+  border: none;
+  padding-bottom: 15px;
 }
 
 .navbar-default .navbar-toggle {
@@ -269,6 +279,7 @@ ul.nav {
     border: solid 2px #bb0404;
 }
 
+/*
 @media (max-width: 1199px) {
     .navbar-header {
         float: none;
@@ -280,9 +291,10 @@ ul.nav {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
-    .navbar-collapse.collapse {
-        display: none!important;
+    .navbar-collapse {
+        display: none;
     }
+
     .navbar-nav {
         float: none!important;
         margin: 7.5px -15px;
@@ -294,6 +306,16 @@ ul.nav {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+}
+*/
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 50%;
+  height: auto;
 }
 
 /* *********************************

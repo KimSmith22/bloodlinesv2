@@ -32,11 +32,11 @@
   <meta itemprop="image" content="http://bloodlinesdocumentary.com/img/meta.png">
 
   <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="http://bloodlinesdocumentary.com">
+  <meta property="og:url" content="https://bloodlinesdocumentary.com">
   <meta property="og:type" content="website">
   <meta property="og:title" content="BLOODLINES THE LIFE AND ART OF VINCENT CASTIGLIA">
   <meta property="og:description" content="Film director John Borowski captures Vincent Castiglia’s life works with his new documentary “Bloodlines.” ">
-  <meta property="og:image" content="http://bloodlinesdocumentary.com/img/meta.png">
+  <meta property="og:image" content="https://bloodlinesdocumentary.com/img/headshot.jpg">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
@@ -51,7 +51,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
-  <body>
+  <body id="pointer">
     <div class="container">
 
       <div class="row text-center">
@@ -60,13 +60,6 @@
         <div class="row btns" id="cushion">
           <div><a href="about.html"><button class="linx" type="button" name="button">ABOUT</button></a></div>
           <div><button onclick="showTrailer()" id="openBtn" class="linx" type="button" name="button">TRAILER</button></div>
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">PRESS</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a target="_blank" href="http://www.bloodlinesdocumentary.com/BLOODLINES-EPK-FINAL.pdf">PRESS KIT</a>
-              <a target="_blank" href="http://www.bloodlinesdocumentary.com/BLOODLINES-TRAILER-PRESS-RELEASE.pdf">PRESS RELEASE</a>
-            </div>
-          </div>
         </div>
         </div>
 
@@ -76,10 +69,10 @@
             <!-- The Modal Content-->
             <div class="modal-content2 videoModal">
               <span onclick="endVideo()" class="pull-right">X</span>
-              <video controls class="videoContainer" id="media">
+              <video controls autoplay class="videoContainer" id="media">
                 <source src="video/trailer.mp4" type="video/mp4">
-                <source src="video/video.webm" type="video/webm">
-                <source src="video/video.ogv"  type="video/ogg">
+                <source src="video/trailer.webm" type="video/webm">
+                <source src="video/trailer.ogv"  type="video/ogg">
               </video>
             </div>
 
@@ -118,6 +111,7 @@
         var video = document.getElementById("media");
         btn.onclick = function() {
           modal.style.display = "block";
+          video.play();
         }
         window.onclick = function(event) {
           if (event.target == modal) {
