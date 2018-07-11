@@ -190,6 +190,14 @@ img.wrap {
   color: #000;
 }
 
+.screening {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 /* The Modal (background) */
 .modal2 {
