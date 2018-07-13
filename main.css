@@ -143,6 +143,15 @@ html {
   justify-content: space-between;
 }
 
+.btnz {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
 .btn {
   background-color: #bb0404;
 }
@@ -187,7 +196,7 @@ a:hover {
 }
 
 img.wrap {
-  padding: 2em;
+  padding: 1.2em;
   float: left;
 }
 

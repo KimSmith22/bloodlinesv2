@@ -53,7 +53,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
-<body>
+<body id="pointer">
   <div class="container">
 
     <!-- Responsive Fixed navbar -->
@@ -77,8 +77,8 @@
             <li><a href="director.html">DIRECTOR</a></li>
             <li><a href="news.html">NEWS</a></li>
             <li><a href="gallery.html">GALLERY</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
             <li><a href="press.html">PRESS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
             <li><a href="faq.html">FAQ</a></li>
           </ul>
         </div>
@@ -115,7 +115,7 @@
           <!-- The Modal Content-->
           <div class="modal-content2 videoModal">
             <span onclick="endVideo()" class="pull-right">X</span>
-            <video controls class="videoContainer" id="media">
+            <video controls autoplay class="videoContainer" id="media">
               <source src="video/teaser.mp4" type="video/mp4">
               <source src="video/teaser.webm" type="video/webm">
               <source src="video/teaser.ogv"  type="video/ogg">
