@@ -8,6 +8,10 @@ body {
   cursor: pointer;
 }
 
+.point {
+  cursor: pointer;
+}
+
 .home {
    height: 625px;
    background: url('img/home.jpg') fixed center no-repeat;
@@ -120,6 +124,10 @@ html {
   padding: 20px;
 }
 
+#cushion2 {
+  padding-top: 35px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -132,6 +140,8 @@ html {
   height: 1.5em;
   font-size: 16px !important;
   font-family: 'Philosopher', sans-serif;
+  margin: 0 25px;
+
 }
 
 .btns {
@@ -144,12 +154,9 @@ html {
 }
 
 .btnz {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-between;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
 }
 
 .btn {
