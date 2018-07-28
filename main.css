@@ -285,6 +285,11 @@ $small-logo-padding: 5px; // of bottom padding to look nice
     display: inline;
   }
 
+  .pagination li:hover:not(.active) a {
+    background-color: #ddd;
+  }
+
+/* the following two classes are where you apply styling to the pagination links */
   .pagination li a {
     color: #bb0404;
     float: left;
@@ -297,10 +302,6 @@ $small-logo-padding: 5px; // of bottom padding to look nice
   .pagination li.active a {
     background-color: red;
     color: #000;
-  }
-
-  .pagination li:hover:not(.active) a {
-    background-color: #ddd;
   }
 
 .navbar-default {
