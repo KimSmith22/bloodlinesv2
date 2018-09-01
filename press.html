@@ -93,11 +93,20 @@
         <div class="row btns" id="cushion">
             <div><a href="BLOODLINES-EPK.pdf" alt="bloodlines"><button class="linx" type="button" name="button">PRESS KIT PDF</button></a></div>
             <div><a href="BLOODLINES-PRESS-RELEASE.pdf" alt="bloodlines"><button class="linx" type="button" name="button">PRESS RELEASE PDF</button></a></div>
-            <div><a href="https://www.kickstarter.com/projects/1707661554/private-chicago-screening-of-bloodlines" alt="bloodlines"><button class="linx" type="button" name="button">KICKSTARTER</button></a></div>
+            <div><a><button onclick="showScreening()" id="openScreening" class="linx" type="button" name="button">SCREENINGS</button></a></div>
         </div>
-        <div class="row" style="padding-top: 15px;">
-            <img class="img-responsive screening" src="img/aug4.png" />
+    </div>
+
+
+    <!-- The Modal -->
+    <div id="screening" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class="img-responsive screening" src="img/sept28.jpg" />
         </div>
+
     </div>
 
 
@@ -129,5 +138,24 @@
 <script src="parallax.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+        function showScreening() {
+            var modal = document.getElementById('screening');
+            var btn = document.getElementById("openScreening");
+            var span = document.getElementsByClassName("close")[0];
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+    </script>
 </body>
 </html>

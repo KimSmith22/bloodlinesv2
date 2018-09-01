@@ -217,7 +217,7 @@ img.wrap {
 }
 
 .screening {
-  width: 45%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -299,10 +299,13 @@ $small-logo-padding: 5px; // of bottom padding to look nice
     border: none!important;
   }
 
-  .pagination li.active a {
-    background-color: red;
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 1;
+    color: #fff;
+    background-color: #bb0404;
+    border: none!important;
     color: #000;
-  }
+}
 
 .navbar-default {
   background: #000;
@@ -378,7 +381,7 @@ ul.nav {
   background-color: #fff;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -508,6 +511,7 @@ ul.nav {
    padding: 0;
    width: 100%;
    max-width: 1000px;
+   z-index: 2;
  }
 
 @media(max-width:648px){
